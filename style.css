@@ -1,0 +1,39 @@
+body{
+    background-image: url(sea.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main{
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 15%;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: white solid 1px;
+    border-radius: 10px;
+    text-align: center;
+}
+#searchInput{
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+#searchButton{
+    background-color: chocolate;
+    border: none;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 10px;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      height: 700px;
+    }
+    .main{
+        width: 90%;
+    }
+  }
